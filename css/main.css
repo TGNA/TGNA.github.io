@@ -1,9 +1,6 @@
 body{
   padding-bottom: 60px;
 }
-i{
-  vertical-align: middle;
-}
 .jumbotron {
   padding: 20px 15px;
 }
@@ -28,6 +25,9 @@ i{
 }
 #gh-activity::-webkit-scrollbar-thumb {
   background-color: #2980b9;
+}
+.gh-activity-box-title{
+  vertical-align: middle !important;
 }
 #gh-activity ul{
   list-style: none;
